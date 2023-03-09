@@ -4,7 +4,7 @@ class SiteController extends \BaseController {
 
 	public function home()
 	{
-	return "hii";
+	
 		
 		$site = Siteinfo::find(1);
 		$hits = $site->hits;
