@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'amoprhou_jagruk',
-			'username'  => 'amoprhou_noor1',
-			'password'  => 'Great@0072145',
+			'database'  => 'jagruk_janmat',
+			'username'  => 'forge',
+			'password'  => 'bgGCfHjF3iqAbWWMNnut',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
