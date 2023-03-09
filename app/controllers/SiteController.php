@@ -13,10 +13,10 @@ class SiteController extends \BaseController {
 
 
         $categories = Category::orderBy('id','ASC')->take(6)->get();
-         $articles1 = $categories[0]->articles()->orderBy('id','DESC')->get();
-         $articles2 = $categories[1]->articles()->orderBy('id','DESC')->get();
-         $articles3 = $categories[2]->articles()->orderBy('id','DESC')->get();
-         $articles4 = $categories[3]->articles()->orderBy('id','DESC')->get();
+         $articles1 = $categories[0]->articles()->take(10)->orderBy('id','DESC')->get();
+         $articles2 = $categories[1]->articles()->take(10)->orderBy('id','DESC')->get();
+         $articles3 = $categories[2]->articles()->take(10)->orderBy('id','DESC')->get();
+         $articles4 = $categories[3]->articles()->take(10)->orderBy('id','DESC')->get();
 
 
         $sliders = Article::where('slider','=','1')->orderBy('id','DSC')->take(6)->get();
