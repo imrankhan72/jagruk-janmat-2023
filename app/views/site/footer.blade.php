@@ -78,7 +78,7 @@
         var SearchString = window.location.href;
         // console.log(SearchString);
         // console.log("hii");
-    if (SearchString == "http://jagrukjanmat.com/") {
+    if (SearchString == "https://jagrukjanmat.com/") {
         $('#myModal').modal('show');
     };
     
